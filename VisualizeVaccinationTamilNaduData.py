@@ -6,11 +6,7 @@ from configparser import ConfigParser
 import sys
 
 try:
-<<<<<<< HEAD
-        configFilePath = r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Covid-Data-Analysis\Configurations.ini'
-=======
         configFilePath = r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Configurations.ini'
->>>>>>> 383d896 (Minor changes to all files)
         parser = ConfigParser()
         parser.read(configFilePath)
         database = parser.get('Database', 'database')
@@ -20,11 +16,7 @@ try:
         port = parser.getint('Database', 'port')
 
 except Exception as e:
-<<<<<<< HEAD
         print("Cannot fetch configurations. Please check Configurations.ini")
-=======
-        print("Cannot fetch configurations. Please check Configurations.ini")
->>>>>>> 383d896 (Minor changes to all files)
         sys.exit()
         
 try:
@@ -102,15 +94,9 @@ print('\nTotal males vaccinated :','{:,}'.format(malesVaccinated))
 print('\nTotal females vaccinated :','{:,}'.format(femalesVaccinated))
 print('\nTotal transgenders vaccinated :','{:,}'.format(transgendersVaccinated))
 
-<<<<<<< HEAD
 cur.execute('''insert into gender_distribution (state, males_vaccinated, females_vaccinated, transgenders_vaccinated) 
 values ((%s),(%s),(%s),(%s)) on conflict(state) do update set  males_vaccinated = (%s), 
 females_vaccinated = (%s), transgenders_vaccinated = (%s)''',
-=======
-cur.execute('''insert into gender_distribution (state, males_vaccinated, females_vaccinated, transgenders_vaccinated) 
-values ((%s),(%s),(%s),(%s)) on conflict(state) do update set  males_vaccinated = (%s), 
-females_vaccinated = (%s), transgenders_vaccinated = (%s)''',
->>>>>>> 383d896 (Minor changes to all files)
 ('Tamil Nadu', malesVaccinated, femalesVaccinated, transgendersVaccinated, malesVaccinated, femalesVaccinated, transgendersVaccinated,))
 conn.commit()
 
@@ -137,17 +123,10 @@ cur.execute('''insert into vaccine_distribution (state, covaxin_administered, co
 conn.commit()
 
 xPoints = ['Covaxin administered', 'Covishield Administered']
-<<<<<<< HEAD
-yPoints = [covaxinAdministered/100000, covishieldAdministered/100000]
-pyplot.bar(xPoints, yPoints, color = ['blue', 'green'], align = 'center', alpha = 1)
-pyplot.xticks(xPoints, ('Covaxin administered', 'Covishield Administered'))
-pyplot.ylabel('Number of doses administered in lacs')
-=======
 yPoints = [covaxinAdministered, covishieldAdministered]
 pyplot.figure(figsize = (9,4))
 pyplot.pie(yPoints, explode = (0,0.1), labels = xPoints, colors = ['blue', 'green'], autopct = '%1.1f%%', shadow = True)
 pyplot.axis('equal')
->>>>>>> 383d896 (Minor changes to all files)
 pyplot.title('Categorization based on vaccine administered')
 pyplot.show()
 

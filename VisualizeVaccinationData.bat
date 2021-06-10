@@ -1,42 +1,3 @@
-<<<<<<< HEAD
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationAndamanData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationAndhraPradeshData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationArunachalPradeshData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationAssamData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationBiharData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationChandigarhData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationChhattisgarhData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationDdhAndDdData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationDelhiData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationGoaData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationGujaratData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationHaryanaData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationHimachalPradeshData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationIndiaData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationJammuAndKashmirData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationJharkhandData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationKarnatakaData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationKeralaData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationLadakhData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationLakshadweepData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationMadhyaPradeshData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationMaharashtraData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationManipurData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationMeghalayaData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationMizoramData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationNagalandData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationOdishaData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationPuducherryData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationPunjabData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationRajasthanData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationSikkimData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationTamilNaduData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationTelanganaData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationTripuraData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationUttarakhandData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationUttarPradeshData.py
-"C:\Users\kudhroli\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationWestBengalData.py
-=======
 "C:\Users\Mittu\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationAndamanData.py
 "C:\Users\Mittu\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationAndhraPradeshData.py
 "C:\Users\Mittu\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationArunachalPradeshData.py
@@ -74,4 +35,3 @@
 "C:\Users\Mittu\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationUttarakhandData.py
 "C:\Users\Mittu\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationUttarPradeshData.py
 "C:\Users\Mittu\Envs\projCDA\Scripts\python.exe" VisualizeVaccinationWestBengalData.py
->>>>>>> 383d896 (Minor changes to all files)

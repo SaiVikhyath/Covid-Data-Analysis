@@ -6,11 +6,7 @@ from configparser import ConfigParser
 import sys
 
 try:
-<<<<<<< HEAD
-        configFilePath = r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Covid-Data-Analysis\Configurations.ini'
-=======
         configFilePath = r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Configurations.ini'
->>>>>>> 383d896 (Minor changes to all files)
         parser = ConfigParser()
         parser.read(configFilePath)
         database = parser.get('Database', 'database')
@@ -20,11 +16,7 @@ try:
         port = parser.getint('Database', 'port')
 
 except Exception as e:
-<<<<<<< HEAD
-        print("Cannot fetch configurations. Please check Configurations.ini")
-=======
         print("Cannot fetch configurations. Please check Configurations.ini",e)
->>>>>>> 383d896 (Minor changes to all files)
         sys.exit()
         
 try:
@@ -103,15 +95,9 @@ print('\nTotal males vaccinated :','{:,}'.format(malesVaccinated))
 print('\nTotal females vaccinated :','{:,}'.format(femalesVaccinated))
 print('\nTotal transgenders vaccinated :','{:,}'.format(transgendersVaccinated))
 
-<<<<<<< HEAD
 cur.execute('''insert into gender_distribution (state, males_vaccinated, females_vaccinated, transgenders_vaccinated) 
 values ((%s),(%s),(%s),(%s)) on conflict(state) do update set  males_vaccinated = (%s), 
 females_vaccinated = (%s), transgenders_vaccinated = (%s)''',
-=======
-cur.execute('''insert into gender_distribution (state, males_vaccinated, females_vaccinated, transgenders_vaccinated) 
-values ((%s),(%s),(%s),(%s)) on conflict(state) do update set  males_vaccinated = (%s), 
-females_vaccinated = (%s), transgenders_vaccinated = (%s)''',
->>>>>>> 383d896 (Minor changes to all files)
 ('Andaman & Nicobar', malesVaccinated, femalesVaccinated, transgendersVaccinated, malesVaccinated, femalesVaccinated, transgendersVaccinated,))
 conn.commit()
 
