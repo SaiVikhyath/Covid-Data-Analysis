@@ -6,7 +6,7 @@ from configparser import ConfigParser
 import sys
 
 try:
-        configFilePath = r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Configurations.ini'
+        configFilePath = r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Covid-Data-Analysis\Configurations.ini'
         parser = ConfigParser()
         parser.read(configFilePath)
         database = parser.get('Database', 'database')
@@ -62,7 +62,9 @@ pyplot.figure(figsize = (9,4))
 pyplot.pie(yPoints, explode = (0,0.1), labels = xPoints, colors = ['yellow', 'orange'], autopct = '%1.1f%%', shadow = True)
 pyplot.axis('equal')
 pyplot.title('Doses administered')
-pyplot.show()
+pyplot.savefig(r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Covid-Data-Analysis\Graphs\ArunachalPradeshDoses.png')
+pyplot.ion()
+pyplot.close()
 
 xPoints = list(range(1,96))
 yPoints = IndiaVaccineData['First Dose Administered'].sub(IndiaVaccineData['First Dose Administered'].shift())
@@ -71,7 +73,9 @@ pyplot.plot(xPoints, yPoints/1000)
 pyplot.title('Daily administration of first dose')
 pyplot.ylabel('First Dose Administered in thousands')
 pyplot.xlabel('Days')
-pyplot.show()
+pyplot.savefig(r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Covid-Data-Analysis\Graphs\ArunachalPradeshFirstDose.png')
+pyplot.ion()
+pyplot.close()
 
 xPoints = list(range(1,96))
 yPoints = IndiaVaccineData['Second Dose Administered'].sub(IndiaVaccineData['Second Dose Administered'].shift())
@@ -80,7 +84,9 @@ pyplot.plot(xPoints, yPoints/1000)
 pyplot.title('Daily administration of second dose')
 pyplot.ylabel('Second Dose Administered in thousands')
 pyplot.xlabel('Days')
-pyplot.show()
+pyplot.savefig(r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Covid-Data-Analysis\Graphs\ArunachalPradeshSecondDose.png')
+pyplot.ion()
+pyplot.close()
 
 
 print('\n\n*******************************************END************************************************\n\n')
@@ -106,7 +112,9 @@ pyplot.figure(figsize = (9,4))
 pyplot.pie(yPoints, explode = (0,0.05,0.2), labels = xPoints, colors = ['blue', 'pink', 'orange'], autopct = '%1.1f%%', shadow = True)
 pyplot.axis('equal')
 pyplot.title('Vaccination categorization based on gender')
-pyplot.show()
+pyplot.savefig(r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Covid-Data-Analysis\Graphs\ArunachalPradeshGender.png')
+pyplot.ion()
+pyplot.close()
 
 print('\n\n*******************************************END************************************************\n\n')
 print('==============================================================================================')
@@ -128,7 +136,9 @@ pyplot.figure(figsize = (9,4))
 pyplot.pie(yPoints, explode = (0,0.1), labels = xPoints, colors = ['blue', 'green'], autopct = '%1.1f%%', shadow = True)
 pyplot.axis('equal')
 pyplot.title('Categorization based on vaccine administered')
-pyplot.show()
+pyplot.savefig(r'C:\Users\Mittu\Desktop\CovidDataAnalysis\Covid-Data-Analysis\Graphs\ArunachalPradeshVaccine.png')
+pyplot.ion()
+pyplot.close()
 
 
 print('\n\n*******************************************END************************************************\n\n')
